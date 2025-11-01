@@ -16,7 +16,13 @@
     <!-- Anek Latin Font with all weights -->
     <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-        <base href="/AD-Landing-Page/">
+         <!-- 🔧 Auto-detect base path -->
+  <script>
+    const base = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+      ? '/' // Local environment
+      : '/AD-Landing-Page/'; // GitHub Pages repo name
+    document.write(`<base href="${base}">`);
+  </script>
 </head>
 
 <body>
@@ -87,7 +93,7 @@
           <div class="d-flex flex-column align-items-center">
             <div class="stat-icon ph">
               <!-- icon placeholder -->
-              <img src="/images/Layer 1 copy.png" alt="Customer icon" class="img-fluid" loading="lazy">
+              <img src="images/Layer 1 copy.png" alt="Customer icon" class="img-fluid" loading="lazy">
             </div>
             <div>
             <h2 class="mt-2 fw-bold text-brand  fs-3">1.3 Lakh Cr +</h2>
