@@ -3,7 +3,6 @@
       --brand-red:#CB2036;
       --brand-red-dark:#B72437;
       --brand-cream:#FFF5D6;
-      --brand-cream-2:#FFF5D6;
       --brand-grey:#F1F2F2;
     --brand-text:#000000;
     --h1-font-size: 40px;     
@@ -17,7 +16,7 @@
     /* Utilities */
     .text-brand{ color:var(--brand-red)!important; }
     .bg-cream{ background:var(--brand-cream); }
-    .bg-cream-2{ background:var(--brand-cream-2); }
+    .bg-red-dark{ background:var(--brand-red-dark); }
     .bg-grey{ background:var(--brand-grey); }
     .btn-brand{ background:var(--brand-red); color:#fff; border:0; }
     .btn-brand:hover{ background:var(--brand-red-dark); color:#fff; }
@@ -27,7 +26,6 @@
     }
     .tile-icon {
       width:100px; height:100px; border-radius:14px; background:#fff; display:grid; place-items:center;
-      box-shadow:0 2px 10px rgba(0,0,0,.06); border:1px solid rgba(0,0,0,.06);
     }
 
 .stat-icon {
