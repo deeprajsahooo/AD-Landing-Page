@@ -66,6 +66,51 @@
     
   }
 
+  .elevate-app {
+  background: linear-gradient(to bottom, #ffffff 84%, #FFF5D6 16%);
+}
+/* ELEVATE APP SECTION TILES CSS */
+.elevate-app .tile {
+  position: relative;
+  border: 0 !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 1rem; /* space for overlapping icon */
+  overflow: visible;
+  background: #fff;
+}
+
+/* Icon overlap (top-right) */
+.elevate-app .tile-icon {
+  position: absolute;
+  top: -22px;       /* slightly out from the top */
+  right: 40px;     /* move to the right side */
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* Subtext color */
+.elevate-app .muted {
+  color: #808285;
+}
+
+/* Accent color for titles */
+.text-red {
+  color: #CB2033;
+  padding-right: 20px; 
+}
+/* Mobile adjustment */
+@media (max-width: 767px) {
+  .text-red {
+    margin-right: 50px;
+  }
+}
+
+
+/* ELEVATE APP SECTION TILES CSS END */
+
   @media (max-width: 992px) {
     .abmoney-benefits {
       background-position: center top;
