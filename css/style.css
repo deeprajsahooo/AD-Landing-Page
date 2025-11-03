@@ -69,7 +69,7 @@
   .elevate-app {
   background: linear-gradient(to bottom, #ffffff 84%, #FFF5D6 16%);
 }
-/* ELEVATE APP SECTION TILES CSS */
+/* START ELEVATE APP SECTION CSS ADJUSTMENT */
 .elevate-app .tile {
   position: relative;
   border: 0 !important;
@@ -107,9 +107,7 @@
     margin-right: 50px;
   }
 }
-
-
-/* ELEVATE APP SECTION TILES CSS END */
+/* END ELEVATE APP SECTION CSS ADJUSTMENT */
 
   @media (max-width: 992px) {
     .abmoney-benefits {
