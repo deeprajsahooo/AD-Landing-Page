@@ -209,16 +209,6 @@ img {
   border: 1px solid #D4D7DA;
 }
 
-.badge-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--brand-red);
-  display: inline-block;
-  margin-right: .5rem;
-}
-
-
 .form-control {
   padding: .75rem .75rem;
   margin: 20px 0px;
@@ -278,6 +268,7 @@ img {
   color: #CB2033;
   padding-right: 20px;
 }
+
 /* Start flying animation images  */
 @keyframes flySideways {
   0% {
@@ -305,6 +296,7 @@ img {
   animation: flySideways 5s linear infinite;
   will-change: transform;
 }
+
 /* End flying animation images  */
 
 /* Mobile adjustment */
@@ -344,56 +336,9 @@ img {
   }
 }
 
-/* Testimonial cards */
-.quote-card {
-  background: #fff;
-  border-radius: 16px;
-  padding: 1rem 1rem 1.25rem;
-  border: 1px solid rgba(0, 0, 0, .06);
-  height: 100%;
-}
-
-.quote-mark {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: var(--brand-red);
-  color: #fff;
-  font-weight: 700;
-  display: inline-grid;
-  place-items: center;
-  margin-right: .5rem;
-}
-
 /* Small helpers for icon placeholders (replace with real svgs/pngs) */
 .ph svg {
   width: 28px;
   height: 28px;
   fill: var(--brand-red);
 }
-/* Start Hero Banner Effect */
-.elevate_banner_sc {
-  position: relative;
-  overflow: hidden;
-}
-
-.elevate_banner_sc::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5; /* corrected to valid value (0.5 = 50%) */
-  z-index: 0;
-}
-
-/* Ensure section content stays above background */
-.elevate_banner_sc > * {
-  position: relative;
-  z-index: 1;
-}
-/* End Hero Banner Effect */
