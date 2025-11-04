@@ -51,20 +51,28 @@ body {
   border-radius: .75rem;
 }
 
-/* H1 Heading Adjustment Start*/
+/* Start Heading Adjustment some sections */
 .responsive-heading {
   font-size: 70px;
   line-height: 4.375rem;
 }
+
+.abmoney-heading {
+    font-size: 54px;
+  }
+
 
 @media (max-width: 767.98px) {
   .responsive-heading {
     font-size: 40px;
     line-height: 2.5rem;
   }
+  .abmoney-heading {
+      font-size: 24px;
+    }
 }
 
-/* H1 Heading Adjustment End*/
+/* Heading Adjustment of some sections End*/
 
 /*Start Hover effecr on eleveate app and benefits section */
 
