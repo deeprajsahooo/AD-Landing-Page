@@ -278,13 +278,13 @@ img {
   color: #CB2033;
   padding-right: 20px;
 }
-
+/* Start flying animation images  */
 @keyframes flySideways {
   0% {
     transform: translateX(0);
   }
 
-  25% {
+  20% {
     transform: translateX(-10px);
   }
 
@@ -292,7 +292,7 @@ img {
     transform: translateX(0);
   }
 
-  75% {
+  80% {
     transform: translateX(10px);
   }
 
@@ -302,9 +302,10 @@ img {
 }
 
 .flyingAnimation {
-  animation: flySideways 5s ease-in-out infinite;
+  animation: flySideways 5s linear infinite;
+  will-change: transform;
 }
-
+/* End flying animation images  */
 
 /* Mobile adjustment */
 @media (max-width: 767px) {
