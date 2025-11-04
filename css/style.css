@@ -371,53 +371,30 @@ img {
   height: 28px;
   fill: var(--brand-red);
 }
-
-/* Start Warm Ivory Enhanced Background Effect on hero section */
-
-.bg-cream {
+/* Start Hero Banner Effect */
+.elevate_banner_sc {
   position: relative;
-  background-color: #fff5d6; /* base ivory tone */
   overflow: hidden;
 }
 
-/* Gentle, neutral glow */
-.bg-cream::before {
+.elevate_banner_sc::before {
   content: "";
+  background-image: url(../images/elevate_banner_bg_desktop.png);
   position: absolute;
-  top: -25%;
-  left: -15%;
-  width: 160%;
-  height: 160%;
-  background: radial-gradient(
-    circle at 40% 50%,
-    rgba(255, 245, 214, 0.7),
-    rgba(255, 250, 235, 0.5),
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0)
-  );
-  filter: blur(90px);
-  opacity: 0.8;
-  animation: softIvoryFlow 18s ease-in-out infinite alternate;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* corrected to valid value (0.5 = 50%) */
   z-index: 0;
 }
 
-/* Smooth floating animation */
-@keyframes softIvoryFlow {
-  0% {
-    transform: translate(0%, 0%) scale(1);
-  }
-  50% {
-    transform: translate(5%, -4%) scale(1.05);
-  }
-  100% {
-    transform: translate(-4%, 3%) scale(1);
-  }
-}
-
-/* Keep hero content above background */
-.bg-cream > * {
+/* Ensure section content stays above background */
+.elevate_banner_sc > * {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
-
-/* Warm Ivory Enhanced Background Effect on hero section End */
+/* End Hero Banner Effect */
