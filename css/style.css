@@ -379,7 +379,6 @@ img {
 
 .elevate_banner_sc::before {
   content: "";
-  background-image: url(../images/elevate_banner_bg_desktop.png);
   position: absolute;
   left: 0;
   right: 0;
