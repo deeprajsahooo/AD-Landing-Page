@@ -57,9 +57,13 @@ body {
   line-height: 4.375rem;
 }
 
+.responsive-subheading {
+  font-size: 30px;
+}
+
 .abmoney-heading {
-    font-size: 54px;
-  }
+  font-size: 54px;
+}
 
 
 @media (max-width: 767.98px) {
@@ -67,9 +71,14 @@ body {
     font-size: 40px;
     line-height: 2.5rem;
   }
+
   .abmoney-heading {
-      font-size: 24px;
-    }
+    font-size: 24px;
+  }
+
+  .responsive-subheading {
+    font-size: 22px;
+  }
 }
 
 /* Heading Adjustment of some sections End*/
