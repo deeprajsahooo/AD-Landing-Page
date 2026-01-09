@@ -342,3 +342,6 @@ img {
   height: 28px;
   fill: var(--brand-red);
 }
+.customfs4size{
+  font-size: 1.4rem!important;
+}
